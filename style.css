@@ -1,10 +1,12 @@
 @import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
 @import url(https://fonts.google.com/specimen/Lexend+Deca);
 
-      padding: 0;  
+    
+*{padding: 0;  
       margin: 0;  
-      box-sizing: border-box;    
- }  
+      box-sizing: border-box; 
+}
+
  body{  
       width: 100%;  
       min-height: 100vh;  
@@ -71,7 +73,10 @@
  }  
  .btn3{  
       color: hsl(179, 100%, 13%);  
- }  
+ } 
+ .btn4{  
+     color: hsl(276, 83%, 35%);  
+}
  .btn:hover{  
       background-color: transparent;  
       border: 2px solid #FFF;  
